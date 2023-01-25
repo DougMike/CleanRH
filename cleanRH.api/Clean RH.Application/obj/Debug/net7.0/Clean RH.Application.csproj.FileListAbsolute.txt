@@ -10,3 +10,15 @@ C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH.Application\ob
 C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH.Application\obj\Debug\net7.0\refint\Clean RH.Application.dll
 C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH.Application\obj\Debug\net7.0\Clean RH.Application.pdb
 C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH.Application\obj\Debug\net7.0\ref\Clean RH.Application.dll
+D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Application\bin\Debug\net7.0\Clean RH.Application.deps.json
+D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Application\bin\Debug\net7.0\Clean RH.Application.dll
+D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Application\bin\Debug\net7.0\Clean RH.Application.pdb
+D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Application\obj\Debug\net7.0\Clean RH.Application.csproj.AssemblyReference.cache
+D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Application\obj\Debug\net7.0\Clean RH.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Application\obj\Debug\net7.0\Clean RH.Application.AssemblyInfoInputs.cache
+D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Application\obj\Debug\net7.0\Clean RH.Application.AssemblyInfo.cs
+D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Application\obj\Debug\net7.0\Clean RH.Application.csproj.CoreCompileInputs.cache
+D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Application\obj\Debug\net7.0\Clean RH.Application.dll
+D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Application\obj\Debug\net7.0\refint\Clean RH.Application.dll
+D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Application\obj\Debug\net7.0\Clean RH.Application.pdb
+D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Application\obj\Debug\net7.0\ref\Clean RH.Application.dll
