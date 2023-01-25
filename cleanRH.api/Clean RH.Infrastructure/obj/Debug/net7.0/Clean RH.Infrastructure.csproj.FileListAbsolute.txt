@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Infrastructure\bin\Debug\net7.0\Clean RH.Infrastructure.deps.json
 D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Infrastructure\bin\Debug\net7.0\Clean RH.Infrastructure.dll
 D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Infrastructure\bin\Debug\net7.0\Clean RH.Infrastructure.pdb
@@ -10,3 +11,22 @@ D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Infrastructure\obj\Debug\net7.0\C
 D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Infrastructure\obj\Debug\net7.0\refint\Clean RH.Infrastructure.dll
 D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Infrastructure\obj\Debug\net7.0\Clean RH.Infrastructure.pdb
 D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Infrastructure\obj\Debug\net7.0\ref\Clean RH.Infrastructure.dll
+=======
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH.Infrastructure\bin\Debug\net7.0\Clean RH.Infrastructure.deps.json
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH.Infrastructure\bin\Debug\net7.0\Clean RH.Infrastructure.dll
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH.Infrastructure\bin\Debug\net7.0\Clean RH.Infrastructure.pdb
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH.Infrastructure\bin\Debug\net7.0\Clean RH.Application.dll
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH.Infrastructure\bin\Debug\net7.0\Clean RH.Core.dll
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH.Infrastructure\bin\Debug\net7.0\Clean RH.Application.pdb
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH.Infrastructure\bin\Debug\net7.0\Clean RH.Core.pdb
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH.Infrastructure\obj\Debug\net7.0\Clean RH.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH.Infrastructure\obj\Debug\net7.0\Clean RH.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH.Infrastructure\obj\Debug\net7.0\Clean RH.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH.Infrastructure\obj\Debug\net7.0\Clean RH.Infrastructure.AssemblyInfo.cs
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH.Infrastructure\obj\Debug\net7.0\Clean RH.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH.Infrastructure\obj\Debug\net7.0\Clean RH.Infrastructure.csproj.CopyComplete
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH.Infrastructure\obj\Debug\net7.0\Clean RH.Infrastructure.dll
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH.Infrastructure\obj\Debug\net7.0\refint\Clean RH.Infrastructure.dll
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH.Infrastructure\obj\Debug\net7.0\Clean RH.Infrastructure.pdb
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH.Infrastructure\obj\Debug\net7.0\ref\Clean RH.Infrastructure.dll
+>>>>>>> develop

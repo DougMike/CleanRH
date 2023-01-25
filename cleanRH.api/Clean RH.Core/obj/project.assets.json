@@ -1,6 +1,7 @@
 {
   "version": 3,
   "targets": {
+<<<<<<< HEAD
     "net7.0": {}
   },
   "libraries": {},
@@ -9,10 +10,41 @@
   },
   "packageFolders": {
     "C:\\Users\\dougl\\.nuget\\packages\\": {}
+=======
+    "net7.0": {
+      "Clean RH.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Clean RH.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Clean RH.Application.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Clean RH.Application/1.0.0": {
+      "type": "project",
+      "path": "../Clean RH.Application/Clean RH.Application.csproj",
+      "msbuildProject": "../Clean RH.Application/Clean RH.Application.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net7.0": [
+      "Clean RH.Application >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\willi\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+>>>>>>> develop
   },
   "project": {
     "version": "1.0.0",
     "restore": {
+<<<<<<< HEAD
       "projectUniqueName": "D:\\Projetos\\Repos\\CleanRH\\cleanRH.api\\Clean RH.Core\\Clean RH.Core.csproj",
       "projectName": "Clean RH.Core",
       "projectPath": "D:\\Projetos\\Repos\\CleanRH\\cleanRH.api\\Clean RH.Core\\Clean RH.Core.csproj",
@@ -21,6 +53,20 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dougl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+=======
+      "projectUniqueName": "C:\\Users\\willi\\source\\repos\\Clean RH\\CleanRH\\cleanRH.api\\Clean RH.Core\\Clean RH.Core.csproj",
+      "projectName": "Clean RH.Core",
+      "projectPath": "C:\\Users\\willi\\source\\repos\\Clean RH\\CleanRH\\cleanRH.api\\Clean RH.Core\\Clean RH.Core.csproj",
+      "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\willi\\source\\repos\\Clean RH\\CleanRH\\cleanRH.api\\Clean RH.Core\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\willi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+>>>>>>> develop
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -28,12 +74,24 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+<<<<<<< HEAD
+=======
+        "C:\\Program Files\\dotnet\\library-packs": {},
+>>>>>>> develop
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+<<<<<<< HEAD
           "projectReferences": {}
+=======
+          "projectReferences": {
+            "C:\\Users\\willi\\source\\repos\\Clean RH\\CleanRH\\cleanRH.api\\Clean RH.Application\\Clean RH.Application.csproj": {
+              "projectPath": "C:\\Users\\willi\\source\\repos\\Clean RH\\CleanRH\\cleanRH.api\\Clean RH.Application\\Clean RH.Application.csproj"
+            }
+          }
+>>>>>>> develop
         }
       },
       "warningProperties": {
