@@ -8,17 +8,11 @@
     "net7.0": []
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\Users\\dougl\\.nuget\\packages\\": {}
-=======
-    "C:\\Users\\willi\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
->>>>>>> develop
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "D:\\Projetos\\Repos\\CleanRH\\cleanRH.api\\Clean RH.Application\\Clean RH.Application.csproj",
       "projectName": "Clean RH.Application",
       "projectPath": "D:\\Projetos\\Repos\\CleanRH\\cleanRH.api\\Clean RH.Application\\Clean RH.Application.csproj",
@@ -27,20 +21,6 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dougl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-      "projectUniqueName": "C:\\Users\\willi\\source\\repos\\Clean RH\\CleanRH\\cleanRH.api\\Clean RH.Application\\Clean RH.Application.csproj",
-      "projectName": "Clean RH.Application",
-      "projectPath": "C:\\Users\\willi\\source\\repos\\Clean RH\\CleanRH\\cleanRH.api\\Clean RH.Application\\Clean RH.Application.csproj",
-      "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\willi\\source\\repos\\Clean RH\\CleanRH\\cleanRH.api\\Clean RH.Application\\obj\\",
-      "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
-      "configFilePaths": [
-        "C:\\Users\\willi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
->>>>>>> develop
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -48,10 +28,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-<<<<<<< HEAD
-=======
-        "C:\\Program Files\\dotnet\\library-packs": {},
->>>>>>> develop
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {

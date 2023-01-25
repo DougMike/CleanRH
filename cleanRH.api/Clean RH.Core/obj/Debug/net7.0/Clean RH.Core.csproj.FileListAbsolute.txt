@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Core\bin\Debug\net7.0\Clean RH.Core.deps.json
 D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Core\bin\Debug\net7.0\Clean RH.Core.dll
 D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Core\bin\Debug\net7.0\Clean RH.Core.pdb
@@ -11,20 +11,3 @@ D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Core\obj\Debug\net7.0\Clean RH.Co
 D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Core\obj\Debug\net7.0\refint\Clean RH.Core.dll
 D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Core\obj\Debug\net7.0\Clean RH.Core.pdb
 D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Core\obj\Debug\net7.0\ref\Clean RH.Core.dll
-=======
-C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH.Core\bin\Debug\net7.0\Clean RH.Core.deps.json
-C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH.Core\bin\Debug\net7.0\Clean RH.Core.dll
-C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH.Core\bin\Debug\net7.0\Clean RH.Core.pdb
-C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH.Core\bin\Debug\net7.0\Clean RH.Application.dll
-C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH.Core\bin\Debug\net7.0\Clean RH.Application.pdb
-C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH.Core\obj\Debug\net7.0\Clean RH.Core.csproj.AssemblyReference.cache
-C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH.Core\obj\Debug\net7.0\Clean RH.Core.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH.Core\obj\Debug\net7.0\Clean RH.Core.AssemblyInfoInputs.cache
-C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH.Core\obj\Debug\net7.0\Clean RH.Core.AssemblyInfo.cs
-C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH.Core\obj\Debug\net7.0\Clean RH.Core.csproj.CoreCompileInputs.cache
-C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH.Core\obj\Debug\net7.0\Clean RH.Core.csproj.CopyComplete
-C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH.Core\obj\Debug\net7.0\Clean RH.Core.dll
-C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH.Core\obj\Debug\net7.0\refint\Clean RH.Core.dll
-C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH.Core\obj\Debug\net7.0\Clean RH.Core.pdb
-C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH.Core\obj\Debug\net7.0\ref\Clean RH.Core.dll
->>>>>>> develop

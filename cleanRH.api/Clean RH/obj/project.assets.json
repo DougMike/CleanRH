@@ -2,8 +2,6 @@
   "version": 3,
   "targets": {
     "net7.0": {
-<<<<<<< HEAD
-=======
       "Dapper/2.0.123": {
         "type": "package",
         "compile": {
@@ -17,7 +15,6 @@
           }
         }
       },
->>>>>>> develop
       "Microsoft.AspNetCore.OpenApi/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -48,8 +45,6 @@
           "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets": {}
         }
       },
-<<<<<<< HEAD
-=======
       "Microsoft.Extensions.Configuration.Abstractions/7.0.0": {
         "type": "package",
         "dependencies": {
@@ -85,7 +80,6 @@
           "buildTransitive/net6.0/_._": {}
         }
       },
->>>>>>> develop
       "Microsoft.OpenApi/1.4.3": {
         "type": "package",
         "compile": {
@@ -99,8 +93,6 @@
           }
         }
       },
-<<<<<<< HEAD
-=======
       "MySqlConnector/2.2.5": {
         "type": "package",
         "compile": {
@@ -114,7 +106,6 @@
           }
         }
       },
->>>>>>> develop
       "Swashbuckle.AspNetCore/6.4.0": {
         "type": "package",
         "dependencies": {
@@ -177,8 +168,6 @@
         "frameworkReferences": [
           "Microsoft.AspNetCore.App"
         ]
-<<<<<<< HEAD
-=======
       },
       "Clean RH.Application/1.0.0": {
         "type": "project",
@@ -219,13 +208,10 @@
         "runtime": {
           "bin/placeholder/Clean RH.Infrastructure.dll": {}
         }
->>>>>>> develop
       }
     }
   },
   "libraries": {
-<<<<<<< HEAD
-=======
     "Dapper/2.0.123": {
       "sha512": "RDFF4rBLLmbpi6pwkY7q/M6UXHRJEOerplDGE5jwEkP/JGJnBauAClYavNKJPW1yOTWRPIyfj4is3EaJxQXILQ==",
       "type": "package",
@@ -244,7 +230,6 @@
         "lib/netstandard2.0/Dapper.xml"
       ]
     },
->>>>>>> develop
     "Microsoft.AspNetCore.OpenApi/7.0.0": {
       "sha512": "P1mkNhZ3IwU3phNLIUkgqVXb1exnooTalIYwpSON3oKKkcRtACDgS4WpO+xnwFw4KzV0bmgkUqB3acXxIefvvg==",
       "type": "package",
@@ -491,8 +476,6 @@
         "tools/netcoreapp2.1/System.Diagnostics.DiagnosticSource.dll"
       ]
     },
-<<<<<<< HEAD
-=======
     "Microsoft.Extensions.Configuration.Abstractions/7.0.0": {
       "sha512": "f34u2eaqIjNO9YLHBz8rozVZ+TcFiFs0F3r7nUJd7FRkVSxk8u4OpoK226mi49MwexHOR2ibP9MFvRUaLilcQQ==",
       "type": "package",
@@ -547,7 +530,6 @@
         "useSharedDesignerContext.txt"
       ]
     },
->>>>>>> develop
     "Microsoft.OpenApi/1.4.3": {
       "sha512": "rURwggB+QZYcSVbDr7HSdhw/FELvMlriW10OeOzjPT7pstefMo7IThhtNtDudxbXhW+lj0NfX72Ka5EDsG8x6w==",
       "type": "package",
@@ -562,8 +544,6 @@
         "microsoft.openapi.nuspec"
       ]
     },
-<<<<<<< HEAD
-=======
     "MySqlConnector/2.2.5": {
       "sha512": "6sinY78RvryhHwpup3awdjYO7d5hhWahb5p/1VDODJhSxJggV/sBbYuKK5IQF9TuzXABiddqUbmRfM884tqA3Q==",
       "type": "package",
@@ -591,7 +571,6 @@
         "mysqlconnector.nuspec"
       ]
     },
->>>>>>> develop
     "Swashbuckle.AspNetCore/6.4.0": {
       "sha512": "eUBr4TW0up6oKDA5Xwkul289uqSMgY0xGN4pnbOIBqCcN9VKGGaPvHX3vWaG/hvocfGDP+MGzMA0bBBKz2fkmQ==",
       "type": "package",
@@ -672,8 +651,6 @@
         "swashbuckle.aspnetcore.swaggerui.6.4.0.nupkg.sha512",
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
-<<<<<<< HEAD
-=======
     },
     "Clean RH.Application/1.0.0": {
       "type": "project",
@@ -689,32 +666,22 @@
       "type": "project",
       "path": "../Clean RH.Infrastructure/Clean RH.Infrastructure.csproj",
       "msbuildProject": "../Clean RH.Infrastructure/Clean RH.Infrastructure.csproj"
->>>>>>> develop
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
-<<<<<<< HEAD
-=======
       "Clean RH.Core >= 1.0.0",
       "Clean RH.Infrastructure >= 1.0.0",
->>>>>>> develop
       "Microsoft.AspNetCore.OpenApi >= 7.0.0",
       "Swashbuckle.AspNetCore >= 6.4.0"
     ]
   },
   "packageFolders": {
-<<<<<<< HEAD
     "C:\\Users\\dougl\\.nuget\\packages\\": {}
-=======
-    "C:\\Users\\willi\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
->>>>>>> develop
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-<<<<<<< HEAD
       "projectUniqueName": "D:\\Projetos\\Repos\\CleanRH\\cleanRH.api\\Clean RH\\Clean RH.csproj",
       "projectName": "Clean RH",
       "projectPath": "D:\\Projetos\\Repos\\CleanRH\\cleanRH.api\\Clean RH\\Clean RH.csproj",
@@ -723,20 +690,6 @@
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\dougl\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-      "projectUniqueName": "C:\\Users\\willi\\source\\repos\\Clean RH\\CleanRH\\cleanRH.api\\Clean RH\\Clean RH.csproj",
-      "projectName": "Clean RH",
-      "projectPath": "C:\\Users\\willi\\source\\repos\\Clean RH\\CleanRH\\cleanRH.api\\Clean RH\\Clean RH.csproj",
-      "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\willi\\source\\repos\\Clean RH\\CleanRH\\cleanRH.api\\Clean RH\\obj\\",
-      "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
-      "configFilePaths": [
-        "C:\\Users\\willi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
->>>>>>> develop
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -744,27 +697,19 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-<<<<<<< HEAD
-=======
-        "C:\\Program Files\\dotnet\\library-packs": {},
->>>>>>> develop
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-<<<<<<< HEAD
-          "projectReferences": {}
-=======
           "projectReferences": {
-            "C:\\Users\\willi\\source\\repos\\Clean RH\\CleanRH\\cleanRH.api\\Clean RH.Core\\Clean RH.Core.csproj": {
-              "projectPath": "C:\\Users\\willi\\source\\repos\\Clean RH\\CleanRH\\cleanRH.api\\Clean RH.Core\\Clean RH.Core.csproj"
+            "D:\\Projetos\\Repos\\CleanRH\\cleanRH.api\\Clean RH.Core\\Clean RH.Core.csproj": {
+              "projectPath": "D:\\Projetos\\Repos\\CleanRH\\cleanRH.api\\Clean RH.Core\\Clean RH.Core.csproj"
             },
-            "C:\\Users\\willi\\source\\repos\\Clean RH\\CleanRH\\cleanRH.api\\Clean RH.Infrastructure\\Clean RH.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\willi\\source\\repos\\Clean RH\\CleanRH\\cleanRH.api\\Clean RH.Infrastructure\\Clean RH.Infrastructure.csproj"
+            "D:\\Projetos\\Repos\\CleanRH\\cleanRH.api\\Clean RH.Infrastructure\\Clean RH.Infrastructure.csproj": {
+              "projectPath": "D:\\Projetos\\Repos\\CleanRH\\cleanRH.api\\Clean RH.Infrastructure\\Clean RH.Infrastructure.csproj"
             }
           }
->>>>>>> develop
         }
       },
       "warningProperties": {
