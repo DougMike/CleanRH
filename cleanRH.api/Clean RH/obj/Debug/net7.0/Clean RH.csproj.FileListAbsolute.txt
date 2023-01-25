@@ -1,0 +1,7 @@
+D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\Clean RH.csproj.AssemblyReference.cache
+D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\Clean RH.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\Clean RH.AssemblyInfoInputs.cache
+D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\Clean RH.AssemblyInfo.cs
+D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\Clean RH.csproj.CoreCompileInputs.cache
+D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\Clean RH.MvcApplicationPartsAssemblyInfo.cs
+D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\Clean RH.MvcApplicationPartsAssemblyInfo.cache
