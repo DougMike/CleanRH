@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <RootNamespace>Clean_RH.Core</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Entidade\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Clean RH.Application\Clean RH.Application.csproj" />
+  </ItemGroup>
+
+</Project>
