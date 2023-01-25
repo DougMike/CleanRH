@@ -31,3 +31,11 @@ C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7
 C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\Clean RH.pdb
 C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\Clean RH.genruntimeconfig.cache
 C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\ref\Clean RH.dll
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Clean RH.Application.dll
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Clean RH.Core.dll
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Clean RH.Core.pdb
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Clean RH.Application.pdb
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Dapper.dll
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\MySqlConnector.dll
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Clean RH.Infrastructure.dll
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Clean RH.Infrastructure.pdb

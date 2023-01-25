@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {}
+    "net7.0": {
+      "Clean RH.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/Clean RH.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Clean RH.Application.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "Clean RH.Application/1.0.0": {
+      "type": "project",
+      "path": "../Clean RH.Application/Clean RH.Application.csproj",
+      "msbuildProject": "../Clean RH.Application/Clean RH.Application.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net7.0": []
+    "net7.0": [
+      "Clean RH.Application >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\willi\\.nuget\\packages\\": {},
@@ -39,7 +58,11 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\willi\\source\\repos\\Clean RH\\CleanRH\\cleanRH.api\\Clean RH.Application\\Clean RH.Application.csproj": {
+              "projectPath": "C:\\Users\\willi\\source\\repos\\Clean RH\\CleanRH\\cleanRH.api\\Clean RH.Application\\Clean RH.Application.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -1,3 +1,4 @@
+using Clean_RH.Core.Interfaces.Core;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Clean_RH.Controllers
@@ -6,22 +7,22 @@ namespace Clean_RH.Controllers
     [Route("[controller]")]
     public class ConsultarController : ControllerBase
     {
-        
+        public readonly IRetornarCandidatoService _retornarCandidatoService;
 
-        private readonly ILogger<ConsultarController> _logger;
-
-        public ConsultarController(ILogger<ConsultarController> logger)
-        {
-            _logger = logger;
+        public ConsultarController(IRetornarCandidatoService retornarCandidatoService)
+        {            
+            _retornarCandidatoService = retornarCandidatoService;
         }
 
         [HttpGet]
         [Route("DadosColaborador")]
-        public IActionResult ConsultarColaborador()
+        public IActionResult ConsultarCandidato()
         {
             try
             {
-                return Ok("[{Nome: Willian, CPF: 123.123.123-41}]");
+                var retornoCandidato = _retornarCandidatoService.RetornarCandidatoPendente();
+
+                return Ok(retornoCandidato);
 
             }
             catch (Exception ex)

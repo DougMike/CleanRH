@@ -9,8 +9,10 @@
 
   <ItemGroup>
     <Folder Include="Entidade\" />
-    <Folder Include="Interfaces\" />
-    <Folder Include="Servicos\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Clean RH.Application\Clean RH.Application.csproj" />
   </ItemGroup>
 
 </Project>
