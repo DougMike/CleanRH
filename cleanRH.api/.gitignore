@@ -120,6 +120,7 @@ times.txt
 /*.snap
 /*_source.tar.bz2
 
+# visual studio
 
 # Files built by Visual Studio
 *_i.c
@@ -150,6 +151,3 @@ times.txt
 *.pidb
 *.svclog
 *.scc
-
-# Chutzpah Test files
-_Chutzpah*
