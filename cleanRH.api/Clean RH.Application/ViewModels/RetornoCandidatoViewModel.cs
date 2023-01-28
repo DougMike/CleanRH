@@ -27,4 +27,3 @@ namespace Clean_RH.Application.ViewModels
         public string CPF { get; set; }
     }
 }
-
