@@ -21,21 +21,41 @@ namespace Clean_RH.Infrastructure.Service
 
         public RetornoCandidatoViewModel GetCandidatoPendente()
         {
-            using var _conn = new MySqlConnection(_stringConexao);
+            try
+            {
+                using var _conn = new MySqlConnection(_stringConexao);
 
-            var sql = @"
+                var sql = @"
                 SELECT                    
                     con_dssnome,
                     con_coscic
                 FROM
                 CONTRATADOS
-                LIMIT 1
+                LIMIT 10
             ";
-            var select = _conn.Query(sql); 
+                var select = _conn.Query<Candidato>(sql);
 
-            var retornoCandidato = new RetornoCandidatoViewModel("Will", "123");          
+                var listCandidatos = new List<Candidato>();
 
-            return retornoCandidato;
+                foreach (var i in select)
+                {
+                    Candidato getCandidatoAtivo = new
+                    (
+                        i.Nome,
+                        i.CPF
+                    );
+                    listCandidatos.Add(getCandidatoAtivo);
+                }
+
+                var retornoCandidato = new RetornoCandidatoViewModel(listCandidatos);
+
+                return retornoCandidato;
+
+            }
+            catch (Exception)
+            {
+                throw;
+            }            
         }
     }
 }

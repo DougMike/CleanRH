@@ -8,12 +8,21 @@ namespace Clean_RH.Application.ViewModels
 {
     public class RetornoCandidatoViewModel
     {
-        public RetornoCandidatoViewModel(string nome, string cPF)
+        public RetornoCandidatoViewModel(List<Candidato> candidato)
         {
-            Nome = nome;
-            CPF = cPF;
+            Candidato = candidato;
         }
 
+        public List<Candidato> Candidato { get; set; }
+    }        
+
+    public class Candidato
+    {
+        public Candidato(string con_dssnome, string con_coscic)
+        {
+            Nome = con_dssnome;
+            CPF = con_coscic;
+        }
         public string Nome { get; set; }
         public string CPF { get; set; }
     }

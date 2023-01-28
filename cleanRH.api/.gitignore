@@ -150,3 +150,6 @@ times.txt
 *.pidb
 *.svclog
 *.scc
+
+# Chutzpah Test files
+_Chutzpah*
