@@ -7,12 +7,4 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
-  <ItemGroup>
-    <Folder Include="Entidade\" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Clean RH.Application\Clean RH.Application.csproj" />
-  </ItemGroup>
-
 </Project>

@@ -1,4 +1,4 @@
-﻿using Clean_RH.Application.ViewModels;
+﻿using Clean_RH.Core.Entidade;
 using Clean_RH.Core.Interfaces.Core;
 using Clean_RH.Core.Interfaces.Infra;
 
@@ -13,7 +13,7 @@ namespace Clean_RH.Core.Servicos
             _consultarCandidatosPendente = consultarCandidatosPendente;
         }
 
-        public RetornoCandidatoViewModel RetornarCandidatoPendente()
+        public RetornoCandidatoEntity RetornarCandidatoPendente()
         {
             var retornoCandidatoPendente = _consultarCandidatosPendente.GetCandidatoPendente();
 

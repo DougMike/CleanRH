@@ -1,4 +1,4 @@
-﻿using Clean_RH.Application.ViewModels;
+﻿using Clean_RH.Core.Entidade;
 using Clean_RH.Core.Interfaces.Infra;
 using Dapper;
 using MySqlConnector;
@@ -19,7 +19,7 @@ namespace Clean_RH.Infrastructure.Service
             _stringConexao = _conexaoDB.GetConexao();
         }
 
-        public RetornoCandidatoViewModel GetCandidatoPendente()
+        public RetornoCandidatoEntity GetCandidatoPendente()
         {
             try
             {
@@ -47,7 +47,7 @@ namespace Clean_RH.Infrastructure.Service
                     listCandidatos.Add(getCandidatoAtivo);
                 }
 
-                var retornoCandidato = new RetornoCandidatoViewModel(listCandidatos);
+                var retornoCandidato = new RetornoCandidatoEntity(listCandidatos);
 
                 return retornoCandidato;
 

@@ -15,9 +15,11 @@ builder.Services.AddSwaggerGen();
 
 // injeção de dependência
 builder.Services.AddScoped<IRetornarCandidatoService, RetornarCandidatoService>();
+builder.Services.AddScoped<IAtualizarCandidatoService, AtualizarCandidatoService>();
 
 builder.Services.AddScoped<IConexaoDB, ConexaoDB>();
 builder.Services.AddScoped<IConsultarCandidatosPendente, ConsultarCandidatosPendente>();
+builder.Services.AddScoped<IAtualizarCandidato, AtualizarCandidato>();
 
 var app = builder.Build();
 
