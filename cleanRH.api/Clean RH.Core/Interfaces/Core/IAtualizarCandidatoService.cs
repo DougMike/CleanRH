@@ -4,6 +4,7 @@ namespace Clean_RH.Core.Interfaces.Core
 {
     public interface IAtualizarCandidatoService
     {
-        RetornoCandidatoAtualizaEntity AtualizarCandidato(AtualizarCandidatoEntity atualizarCandidatoEntity);
+        RetornoCandidatoAtualizadoEntity AtualizarCandidato(AtualizarCandidatoEntity atualizarCandidatoEntity);
+        RetornoCandidatoAtualizadoEntity AtualizarDependente(AtualizarDependenteEntity atualizarDependenteEntity);
     }
 }

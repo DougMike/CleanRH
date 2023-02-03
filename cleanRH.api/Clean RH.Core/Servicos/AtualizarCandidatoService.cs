@@ -18,13 +18,13 @@ namespace Clean_RH.Core.Servicos
             _AtualizarCandidato = atualizarCandidato;
         }
 
-        public RetornoCandidatoAtualizaEntity AtualizarCandidato(AtualizarCandidatoEntity atualizarCandidatoEntity)
+        public RetornoCandidatoAtualizadoEntity AtualizarCandidato(AtualizarCandidatoEntity atualizarCandidatoEntity)
         {
             try
             {
                 _AtualizarCandidato.AtualizaCandidato(atualizarCandidatoEntity);
 
-                var retornoCandidato = new RetornoCandidatoAtualizaEntity(atualizarCandidatoEntity.Nome);
+                var retornoCandidato = new RetornoCandidatoAtualizadoEntity(atualizarCandidatoEntity.Nome);
 
                 return retornoCandidato;
 
@@ -33,6 +33,22 @@ namespace Clean_RH.Core.Servicos
             {
                 throw;
             }            
+        }
+
+        public RetornoCandidatoAtualizadoEntity AtualizarDependente(AtualizarDependenteEntity atualizarDependenteEntity)
+        {
+            try
+            {
+                _AtualizarCandidato.AtualizaDependente(atualizarDependenteEntity);
+
+                var retornoCandidato = new RetornoCandidatoAtualizadoEntity("teste");
+
+                return retornoCandidato;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
         }
     }
 }

@@ -5,5 +5,6 @@ namespace Clean_RH.Core.Interfaces.Infra
     public interface IAtualizarCandidato
     {
         void AtualizaCandidato(AtualizarCandidatoEntity atualizarCandidatoEntity);
+        void AtualizaDependente(AtualizarDependenteEntity atualizarDependenteEntity);
     }
 }

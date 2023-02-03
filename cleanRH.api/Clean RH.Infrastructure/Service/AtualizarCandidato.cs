@@ -52,6 +52,40 @@ namespace Clean_RH.Infrastructure.Service
                 throw;
             }
         }
-        
+
+        public void AtualizaDependente(AtualizarDependenteEntity atualizarDependenteEntity)
+        {
+            try
+            {
+                using var _conn = new MySqlConnection(_stringConexao);
+                foreach (var i in atualizarDependenteEntity.Dependente)
+                {
+                    var sql = @"
+                UPDATE 
+                    DEPENDENTES 
+                SET                    
+                    DEP_DSSNOME = @nome,
+                    DEP_COSCIC = @cPF
+                WHERE
+                    DEP_CDICONTRATADO = @idContratado AND
+                    DEP_CDIDEPENDENTE = @idDependente
+                
+            ";
+
+                    var executeSQL = _conn.Execute(sql, new
+                                                        {
+                                                            i.Nome,
+                                                            i.CPF,
+                                                            atualizarDependenteEntity.IdContratado,
+                                                            i.IdDependente
+                                                        }
+                                                    );
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
     }
 }

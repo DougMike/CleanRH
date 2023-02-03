@@ -18,7 +18,7 @@ namespace Clean_RH.Controllers
         }
 
         [HttpPut]
-        [Route("AtualizarDadosColaborador")]
+        [Route("AtualizarDadosCandidato")]
         public IActionResult AtualizarCandidato([FromBody] AtualizarCandidatoViewModel atualizarCandidatoViewModel)
         {
             try
@@ -26,6 +26,24 @@ namespace Clean_RH.Controllers
                 var atualizarCandidato = AtualizarCandidatoMapper.ToAtualizarCandidatoEntity(atualizarCandidatoViewModel);
 
                 var retornoCandidatoAtualizado = _AtualizarCandidatoService.AtualizarCandidato(atualizarCandidato);
+
+                return Ok(retornoCandidatoAtualizado);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
+        }
+
+        [HttpPut]
+        [Route("AtualizarDadosDependente")]
+        public IActionResult AtualizarDependente([FromBody] AtualizarDependenteViewModel atualizarDependenteViewModel)
+        {
+            try
+            {
+                var atualizarDependente = AtualizarDependenteMapper.ToAtualizarDependenteEntity(atualizarDependenteViewModel);
+
+                var retornoCandidatoAtualizado = _AtualizarCandidatoService.AtualizarDependente(atualizarDependente);
 
                 return Ok(retornoCandidatoAtualizado);
             }

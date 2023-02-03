@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace Clean_RH.Core.Entidade
 {
-    public class RetornoCandidatoAtualizaEntity
+    public class RetornoCandidatoAtualizadoEntity
     {
-        public RetornoCandidatoAtualizaEntity(string candidato)
+        public RetornoCandidatoAtualizadoEntity(string candidato)
         {
             Candidato = candidato;
         }
