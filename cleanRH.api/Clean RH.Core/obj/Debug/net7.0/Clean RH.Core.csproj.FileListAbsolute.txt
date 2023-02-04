@@ -1,0 +1,15 @@
+D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Core\bin\Debug\net7.0\Clean RH.Core.deps.json
+D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Core\bin\Debug\net7.0\Clean RH.Core.dll
+D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Core\bin\Debug\net7.0\Clean RH.Core.pdb
+D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Core\bin\Debug\net7.0\Clean RH.Application.dll
+D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Core\bin\Debug\net7.0\Clean RH.Application.pdb
+D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Core\obj\Debug\net7.0\Clean RH.Core.csproj.AssemblyReference.cache
+D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Core\obj\Debug\net7.0\Clean RH.Core.GeneratedMSBuildEditorConfig.editorconfig
+D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Core\obj\Debug\net7.0\Clean RH.Core.AssemblyInfoInputs.cache
+D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Core\obj\Debug\net7.0\Clean RH.Core.AssemblyInfo.cs
+D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Core\obj\Debug\net7.0\Clean RH.Core.csproj.CoreCompileInputs.cache
+D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Core\obj\Debug\net7.0\Clean RH.Core.csproj.CopyComplete
+D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Core\obj\Debug\net7.0\Clean RH.Core.dll
+D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Core\obj\Debug\net7.0\refint\Clean RH.Core.dll
+D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Core\obj\Debug\net7.0\Clean RH.Core.pdb
+D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH.Core\obj\Debug\net7.0\ref\Clean RH.Core.dll

@@ -1,14 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Clean_RH.Application.ViewModels
+﻿namespace Clean_RH.Core.Entidade
 {
-    public class RetornoCandidatoViewModel
+    public class RetornoCandidatoEntity
     {
-        public RetornoCandidatoViewModel(List<Candidato> candidato)
+        public RetornoCandidatoEntity(List<Candidato> candidato)
         {
             Candidato = candidato;
         }

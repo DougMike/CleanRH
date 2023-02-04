@@ -1,9 +1,9 @@
-﻿using Clean_RH.Application.ViewModels;
+﻿using Clean_RH.Core.Entidade;
 
 namespace Clean_RH.Core.Interfaces.Core
 {
     public interface IRetornarCandidatoService
     {
-        RetornoCandidatoViewModel RetornarCandidatoPendente();
+        RetornoCandidatoEntity RetornarCandidatoPendente();
     }
 }
