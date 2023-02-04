@@ -1,16 +1,6 @@
 {
   "version": 3,
   "targets": {
-<<<<<<< HEAD
-    "net7.0": {}
-  },
-  "libraries": {},
-  "projectFileDependencyGroups": {
-    "net7.0": []
-  },
-  "packageFolders": {
-    "C:\\Users\\dougl\\.nuget\\packages\\": {}
-=======
     "net7.0": {
       "Dapper/2.0.123": {
         "type": "package",
@@ -244,9 +234,6 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-<<<<<<< HEAD
-          "projectReferences": {}
-=======
           "projectReferences": {
             "D:\\Projetos\\Repos\\CleanRH\\cleanRH.api\\Clean RH.Application\\Clean RH.Application.csproj": {
               "projectPath": "D:\\Projetos\\Repos\\CleanRH\\cleanRH.api\\Clean RH.Application\\Clean RH.Application.csproj"
@@ -255,7 +242,6 @@
               "projectPath": "D:\\Projetos\\Repos\\CleanRH\\cleanRH.api\\Clean RH.Core\\Clean RH.Core.csproj"
             }
           }
->>>>>>> develop
         }
       },
       "warningProperties": {
@@ -267,8 +253,6 @@
     "frameworks": {
       "net7.0": {
         "targetAlias": "net7.0",
-<<<<<<< HEAD
-=======
         "dependencies": {
           "Dapper": {
             "target": "Package",
@@ -283,7 +267,6 @@
             "version": "[2.2.5, )"
           }
         },
->>>>>>> develop
         "imports": [
           "net461",
           "net462",
