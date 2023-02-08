@@ -87,5 +87,40 @@ namespace Clean_RH.Infrastructure.Service
                 throw;
             }
         }
+
+        public void AtualizaCursoFormacao(AtualizarCursoFormacaoEntity atualizarCursoFormacaoEntity)
+        {
+            try
+            {
+                using var _conn = new MySqlConnection(_stringConexao);
+                foreach (var i in atualizarCursoFormacaoEntity.CursoFormacao)
+                {
+                    var sql = @"
+                UPDATE 
+                    CURSOSFORMACOES 
+                SET                    
+                    CFO_DSSCURSOFORMACAO = @DescricaoCursoFormacao,
+                    CFO_CDISITUACAOCURSOFORMACAO = @idSituacao
+                WHERE
+                    CFO_CDICONTRATADO = @idContratado AND
+                    CFO_CDICURSOFORMACAO = @idCursoFormacao
+                
+            ";
+
+                    var executeSQL = _conn.Execute(sql, new
+                                                        {
+                                                            i.DescricaoCursoFormacao,
+                                                            i.IdSituacao,
+                                                            atualizarCursoFormacaoEntity.IdContratado,
+                                                            i.IdCursoFormacao
+                                                        }
+                                                    );
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
     }
 }

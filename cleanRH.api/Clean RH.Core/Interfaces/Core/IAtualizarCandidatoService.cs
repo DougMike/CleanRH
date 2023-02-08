@@ -6,5 +6,6 @@ namespace Clean_RH.Core.Interfaces.Core
     {
         RetornoCandidatoAtualizadoEntity AtualizarCandidato(AtualizarCandidatoEntity atualizarCandidatoEntity);
         RetornoCandidatoAtualizadoEntity AtualizarDependente(AtualizarDependenteEntity atualizarDependenteEntity);
+        RetornoCandidatoAtualizadoEntity AtualizarCursoFormacao(AtualizarCursoFormacaoEntity atualizarCursoFormacaoEntity);
     }
 }
