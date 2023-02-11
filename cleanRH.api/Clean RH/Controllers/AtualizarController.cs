@@ -52,5 +52,23 @@ namespace Clean_RH.Controllers
                 return StatusCode(500, ex.Message);
             }
         }
+
+        [HttpPut]
+        [Route("AtualizarDadosCursoFormacao")]
+        public IActionResult AtualizarCursoFormacao([FromBody] AtualizarCursoFormacaoViewModel atualizarCursoFormacaoViewModel)
+        {
+            try
+            {
+                var atualizarCursoFormacao = AtualizarCursoFormacaoMapper.ToAtualizarCursoFormacaoEntity(atualizarCursoFormacaoViewModel);
+
+                var retornoCursoFormacaoAtualizado = _AtualizarCandidatoService.AtualizarCursoFormacao(atualizarCursoFormacao);
+
+                return Ok(retornoCursoFormacaoAtualizado);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
+        }
     }
 }

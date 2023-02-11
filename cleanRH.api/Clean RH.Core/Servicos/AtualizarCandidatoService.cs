@@ -50,5 +50,21 @@ namespace Clean_RH.Core.Servicos
                 throw;
             }
         }
+
+        public RetornoCandidatoAtualizadoEntity AtualizarCursoFormacao(AtualizarCursoFormacaoEntity atualizarCursoFormacaoEntity)
+        {
+            try
+            {
+                _AtualizarCandidato.AtualizaCursoFormacao(atualizarCursoFormacaoEntity);
+
+                var retornoCursoFormacao = new RetornoCandidatoAtualizadoEntity("teste");
+
+                return retornoCursoFormacao;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
     }
 }
