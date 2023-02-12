@@ -6,7 +6,8 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './pages/home/home.component';
 import { AdminPageComponent } from './admin/admin-page/admin-page.component';
 import { UserPageComponent } from './pages/user-page/user-page.component';
-import { NavbarComponent } from './components/navbar/navbar.component';
+import { NavbarComponent } from './shared/navbar/navbar.component';
+import { ListaCandidatosComponent } from './components/lista-candidatos/lista-candidatos.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     HomeComponent,
     AdminPageComponent,
     UserPageComponent,
-    NavbarComponent
+    NavbarComponent,
+    ListaCandidatosComponent
   ],
   imports: [
     BrowserModule,
