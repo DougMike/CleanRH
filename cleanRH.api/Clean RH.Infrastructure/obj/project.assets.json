@@ -66,6 +66,9 @@
       "Clean RH.Application/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "Clean RH.Core": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/Clean RH.Application.dll": {}
         },
@@ -76,9 +79,6 @@
       "Clean RH.Core/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
-        "dependencies": {
-          "Clean RH.Application": "1.0.0"
-        },
         "compile": {
           "bin/placeholder/Clean RH.Core.dll": {}
         },
@@ -283,7 +283,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
       }
     }
   }
