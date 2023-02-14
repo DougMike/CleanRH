@@ -43,9 +43,7 @@ namespace Clean_RH.Controllers
             {
                 var atualizarDependente = AtualizarDependenteMapper.ToAtualizarDependenteEntity(atualizarDependenteViewModel);
 
-                var retornoDependenteAtualizado = _AtualizarCandidatoService.AtualizarDependente(atualizarDependente);
 
-                return Ok(retornoDependenteAtualizado);
             }
             catch (Exception ex)
             {
