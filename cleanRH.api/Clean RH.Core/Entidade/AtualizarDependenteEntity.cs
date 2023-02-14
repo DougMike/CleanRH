@@ -4,24 +4,24 @@
     {
         public AtualizarDependenteEntity(int idContratado, List<Dependente> dependente)
         {
-            IdContratado = idContratado;            
+            IdContratado = idContratado;
             Dependente = dependente;
         }
 
-        public int IdContratado { get; set; }        
+        public int IdContratado { get; set; }
         public List<Dependente> Dependente { get; set; }
     }
     public class Dependente
     {
         public Dependente(int idDependente, string nome, string cPF)
         {
-            IdDependente = idDependente; 
+            IdDependente = idDependente;
             Nome = nome;
             CPF = cPF;
         }
 
         public int IdDependente { get; set; }
-        
+
         public string Nome { get; set; }
         public string CPF { get; set; }
     }

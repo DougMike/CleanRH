@@ -36,6 +36,7 @@ namespace Clean_RH.Infrastructure.Service
                     CONTRATADOS 
                 SET                    
                     CON_DSSNOME = @nome,
+                    CON_CPF = @cPF
                 WHERE
                     CON_CDICONTRATADO = @idContratado
             ";
@@ -61,8 +62,10 @@ namespace Clean_RH.Infrastructure.Service
                 {
                     var sql = @"
                 UPDATE 
+                    CONDEPENDENTES 
                 SET                    
                     DEP_DSSNOME = @nome,
+                    DEP_CPF = @cPF
                 WHERE
                     DEP_CDICONTRATADO = @idContratado AND
                     DEP_CDIDEPENDENTE = @idDependente
@@ -94,6 +97,7 @@ namespace Clean_RH.Infrastructure.Service
                 {
                     var sql = @"
                 UPDATE 
+                    CONCURSOSFORMACOES 
                 SET                    
                     CFO_DSSCURSOFORMACAO = @DescricaoCursoFormacao,
                     CFO_CDISITUACAOCURSOFORMACAO = @idSituacao
