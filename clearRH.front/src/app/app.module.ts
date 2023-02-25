@@ -14,6 +14,7 @@ import { TitleComponent } from './shared/title/title.component';
 import { CandidatosComponent } from './components/candidatos/candidatos.component';
 import { ListaCandidatosComponent } from './components/candidatos/lista-candidatos/lista-candidatos.component';
 import { DetalheCandidatoComponent } from './components/candidatos/detalhe-candidato/detalhe-candidato.component';
+import { TopbarComponent } from './shared/topbar/topbar.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { DetalheCandidatoComponent } from './components/candidatos/detalhe-candi
     ListaCandidatosComponent,
     TitleComponent,
     DetalheCandidatoComponent,
-    CandidatosComponent
+    CandidatosComponent,
+    TopbarComponent
   ],
   imports: [
     BrowserModule,

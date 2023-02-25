@@ -11,6 +11,9 @@ import { RequestService } from 'src/app/services/requests-service/request.servic
 export class ListaCandidatosComponent implements OnInit {
 
   candidatos: Candidato[] = [];
+  candidatosFilter: Candidato[] = [];
+
+  qtdStatus: number;
 
   constructor(private router: Router,
     private requestService: RequestService) { }
@@ -22,7 +25,7 @@ export class ListaCandidatosComponent implements OnInit {
   getList() {
     this.requestService.getListCandidatos()
       .subscribe({
-        next: (c: Candidato[]) => { this.candidatos = c },
+        next: (c: Candidato[]) => { this.candidatos = c; this.candidatosFilter = c },
         error: (e: any) => console.log('vish..', e)
       });
   }
@@ -40,6 +43,8 @@ export class ListaCandidatosComponent implements OnInit {
         return 'success';
       case 'em preenchimento':
         return 'warning';
+      case 'em andamento':
+        return 'warning';
       case 'verificando':
         return 'warning';
       case 'inativo':
@@ -48,6 +53,22 @@ export class ListaCandidatosComponent implements OnInit {
         return 'danger';
     }
     return '';
+  }
+
+  filterBy(status: string) {
+    if (status === '') {
+      this.candidatosFilter = this.candidatos;
+      return;
+    }
+
+    this.candidatosFilter = this.candidatosFilter
+      .filter(c => c.situacao.toLocaleLowerCase() == status.toLowerCase());
+  }
+
+  getPorStatus(status: string){
+    return this.qtdStatus = this.candidatosFilter
+    .filter(c => c.situacao.toLocaleLowerCase() == status.toLowerCase()).length;
+    
   }
 
 }

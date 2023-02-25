@@ -36,6 +36,15 @@
             "admissao": "2023-01-01T08:30:00",
             "situacao": "Ativo",
             "eSocial": "Verificado"
+        },
+        {
+            "nome": "Colaborador 4",
+            "email": "colaborador@email.com",
+            "cadastro": 100,
+            "prazoPreenchimento": 10,
+            "admissao": "2023-01-01T08:30:00",
+            "situacao": "Em andamento",
+            "eSocial": "Verificado"
         }
     ]
 }

@@ -1,6 +1,28 @@
-<app-title [title]="'Lista de candidatos'"></app-title>
-
 <div class="card">
+    <h4>Gerenciar pré-admissões</h4>
+    <hr>
+    <ul class="nav">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" (click)="filterBy('')">Todos
+                ({{candidatos.length}})</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" (click)="filterBy('em andamento')">Em andamento
+                ({{getPorStatus('em andamento')}})</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" (click)="filterBy('em validacao')">Em Validação
+                ({{getPorStatus('Em Validacao')}})</a>
+        </li>
+        <li class="nav-item" (click)="filterBy('em admissao')">
+            <a class="nav-link">Em admissão
+                ({{getPorStatus('Em admissão')}})</a>
+        </li>
+        <li class="nav-item" (click)="filterBy('Finalizados')">
+            <a class="nav-link">Finalizados
+                ({{getPorStatus('Finalizados')}})</a>
+        </li>
+    </ul>
     <table class="table">
         <thead>
             <tr>
@@ -12,8 +34,8 @@
                 <th scope="col">eSocial</th>
             </tr>
         </thead>
-        <tbody *ngIf="candidatos.length > 0">
-            <tr *ngFor="let candidato of candidatos; let i = index">
+        <tbody *ngIf="candidatosFilter.length > 0">
+            <tr *ngFor="let candidato of candidatosFilter; let i = index">
                 <td>
                     <img src="../../../../assets/user-avatar/avatar-default.jpg" alt="">
                     <p>{{candidato.nome}}</p>
@@ -31,7 +53,7 @@
                 </td>
             </tr>
         </tbody>
-        <tbody *ngIf="candidatos.length == 0">
+        <tbody *ngIf="candidatosFilter.length == 0">
             Ops... não tem candidatos...
         </tbody>
     </table>
