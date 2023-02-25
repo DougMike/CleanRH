@@ -36,7 +36,7 @@ namespace Clean_RH.Infrastructure.Service
                     CONTRATADOS 
                 SET                    
                     CON_DSSNOME = @nome,
-                    CON_COSCIC = @cPF
+                    CON_CPF = @cPF
                 WHERE
                     CON_CDICONTRATADO = @idContratado
             ";
@@ -62,10 +62,10 @@ namespace Clean_RH.Infrastructure.Service
                 {
                     var sql = @"
                 UPDATE 
-                    DEPENDENTES 
+                    CONDEPENDENTES 
                 SET                    
                     DEP_DSSNOME = @nome,
-                    DEP_COSCIC = @cPF
+                    DEP_CPF = @cPF
                 WHERE
                     DEP_CDICONTRATADO = @idContratado AND
                     DEP_CDIDEPENDENTE = @idDependente
@@ -97,7 +97,7 @@ namespace Clean_RH.Infrastructure.Service
                 {
                     var sql = @"
                 UPDATE 
-                    CURSOSFORMACOES 
+                    CONCURSOSFORMACOES 
                 SET                    
                     CFO_DSSCURSOFORMACAO = @DescricaoCursoFormacao,
                     CFO_CDISITUACAOCURSOFORMACAO = @idSituacao
@@ -115,6 +115,42 @@ namespace Clean_RH.Infrastructure.Service
                                                             i.IdCursoFormacao
                                                         }
                                                     );
+                }
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
+
+        public void AtualizaBeneficio(AtualizarBeneficioEntity atualizarBeneficioEntity)
+        {
+            try
+            {
+                using var _conn = new MySqlConnection(_stringConexao);
+                foreach (var i in atualizarBeneficioEntity.Beneficio)
+                {
+                    var sql = @"
+                UPDATE 
+                    CONBENEFICIOS 
+                SET                    
+                    CBE_CDITIPOBENEFICIO = @IdTipoBeneficio,
+                    CBE_DTDINICIOBENEFICIO = @DtdInicio
+                WHERE
+                    CBE_CDICONBENEFICIO = @IdConBeneficio AND
+                    CBE_CDICONTRATADO = @IdContratado
+                
+            ";
+
+                    var executeSQL = _conn.Execute(sql, new
+                                                        {
+                                                            i.IdTipoBeneficio,
+                                                            i.DtdInicio,
+                                                            i.IdConBeneficio,
+                                                            atualizarBeneficioEntity.IdContratado
+                        
+                                                        }
+                                                   );
                 }
             }
             catch (Exception)

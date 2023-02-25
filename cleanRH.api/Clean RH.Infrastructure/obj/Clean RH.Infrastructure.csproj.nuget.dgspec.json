@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projetos\\Repos\\CleanRH\\cleanRH.api\\Clean RH.Infrastructure\\Clean RH.Infrastructure.csproj": {}
+    "C:\\Users\\willi\\source\\repos\\Clean RH\\CleanRH\\cleanRH.api\\Clean RH.Infrastructure\\Clean RH.Infrastructure.csproj": {}
   },
   "projects": {
-    "D:\\Projetos\\Repos\\CleanRH\\cleanRH.api\\Clean RH.Application\\Clean RH.Application.csproj": {
+    "C:\\Users\\willi\\source\\repos\\Clean RH\\CleanRH\\cleanRH.api\\Clean RH.Application\\Clean RH.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\Repos\\CleanRH\\cleanRH.api\\Clean RH.Application\\Clean RH.Application.csproj",
+        "projectUniqueName": "C:\\Users\\willi\\source\\repos\\Clean RH\\CleanRH\\cleanRH.api\\Clean RH.Application\\Clean RH.Application.csproj",
         "projectName": "Clean RH.Application",
-        "projectPath": "D:\\Projetos\\Repos\\CleanRH\\cleanRH.api\\Clean RH.Application\\Clean RH.Application.csproj",
-        "packagesPath": "C:\\Users\\dougl\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\Repos\\CleanRH\\cleanRH.api\\Clean RH.Application\\obj\\",
+        "projectPath": "C:\\Users\\willi\\source\\repos\\Clean RH\\CleanRH\\cleanRH.api\\Clean RH.Application\\Clean RH.Application.csproj",
+        "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\willi\\source\\repos\\Clean RH\\CleanRH\\cleanRH.api\\Clean RH.Application\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\dougl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\willi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -22,14 +26,15 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Projetos\\Repos\\CleanRH\\cleanRH.api\\Clean RH.Core\\Clean RH.Core.csproj": {
-                "projectPath": "D:\\Projetos\\Repos\\CleanRH\\cleanRH.api\\Clean RH.Core\\Clean RH.Core.csproj"
+              "C:\\Users\\willi\\source\\repos\\Clean RH\\CleanRH\\cleanRH.api\\Clean RH.Core\\Clean RH.Core.csproj": {
+                "projectPath": "C:\\Users\\willi\\source\\repos\\Clean RH\\CleanRH\\cleanRH.api\\Clean RH.Core\\Clean RH.Core.csproj"
               }
             }
           }
@@ -59,21 +64,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projetos\\Repos\\CleanRH\\cleanRH.api\\Clean RH.Core\\Clean RH.Core.csproj": {
+    "C:\\Users\\willi\\source\\repos\\Clean RH\\CleanRH\\cleanRH.api\\Clean RH.Core\\Clean RH.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\Repos\\CleanRH\\cleanRH.api\\Clean RH.Core\\Clean RH.Core.csproj",
+        "projectUniqueName": "C:\\Users\\willi\\source\\repos\\Clean RH\\CleanRH\\cleanRH.api\\Clean RH.Core\\Clean RH.Core.csproj",
         "projectName": "Clean RH.Core",
-        "projectPath": "D:\\Projetos\\Repos\\CleanRH\\cleanRH.api\\Clean RH.Core\\Clean RH.Core.csproj",
-        "packagesPath": "C:\\Users\\dougl\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\Repos\\CleanRH\\cleanRH.api\\Clean RH.Core\\obj\\",
+        "projectPath": "C:\\Users\\willi\\source\\repos\\Clean RH\\CleanRH\\cleanRH.api\\Clean RH.Core\\Clean RH.Core.csproj",
+        "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\willi\\source\\repos\\Clean RH\\CleanRH\\cleanRH.api\\Clean RH.Core\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\dougl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\willi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -81,6 +90,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -114,21 +124,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\Projetos\\Repos\\CleanRH\\cleanRH.api\\Clean RH.Infrastructure\\Clean RH.Infrastructure.csproj": {
+    "C:\\Users\\willi\\source\\repos\\Clean RH\\CleanRH\\cleanRH.api\\Clean RH.Infrastructure\\Clean RH.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projetos\\Repos\\CleanRH\\cleanRH.api\\Clean RH.Infrastructure\\Clean RH.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\willi\\source\\repos\\Clean RH\\CleanRH\\cleanRH.api\\Clean RH.Infrastructure\\Clean RH.Infrastructure.csproj",
         "projectName": "Clean RH.Infrastructure",
-        "projectPath": "D:\\Projetos\\Repos\\CleanRH\\cleanRH.api\\Clean RH.Infrastructure\\Clean RH.Infrastructure.csproj",
-        "packagesPath": "C:\\Users\\dougl\\.nuget\\packages\\",
-        "outputPath": "D:\\Projetos\\Repos\\CleanRH\\cleanRH.api\\Clean RH.Infrastructure\\obj\\",
+        "projectPath": "C:\\Users\\willi\\source\\repos\\Clean RH\\CleanRH\\cleanRH.api\\Clean RH.Infrastructure\\Clean RH.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\willi\\source\\repos\\Clean RH\\CleanRH\\cleanRH.api\\Clean RH.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\dougl\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\willi\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -136,17 +150,18 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "D:\\Projetos\\Repos\\CleanRH\\cleanRH.api\\Clean RH.Application\\Clean RH.Application.csproj": {
-                "projectPath": "D:\\Projetos\\Repos\\CleanRH\\cleanRH.api\\Clean RH.Application\\Clean RH.Application.csproj"
+              "C:\\Users\\willi\\source\\repos\\Clean RH\\CleanRH\\cleanRH.api\\Clean RH.Application\\Clean RH.Application.csproj": {
+                "projectPath": "C:\\Users\\willi\\source\\repos\\Clean RH\\CleanRH\\cleanRH.api\\Clean RH.Application\\Clean RH.Application.csproj"
               },
-              "D:\\Projetos\\Repos\\CleanRH\\cleanRH.api\\Clean RH.Core\\Clean RH.Core.csproj": {
-                "projectPath": "D:\\Projetos\\Repos\\CleanRH\\cleanRH.api\\Clean RH.Core\\Clean RH.Core.csproj"
+              "C:\\Users\\willi\\source\\repos\\Clean RH\\CleanRH\\cleanRH.api\\Clean RH.Core\\Clean RH.Core.csproj": {
+                "projectPath": "C:\\Users\\willi\\source\\repos\\Clean RH\\CleanRH\\cleanRH.api\\Clean RH.Core\\Clean RH.Core.csproj"
               }
             }
           }
@@ -190,7 +205,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.100\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,41 +1,41 @@
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\appsettings.Development.json
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\appsettings.json
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Clean RH.exe
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Clean RH.deps.json
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Clean RH.runtimeconfig.json
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Clean RH.dll
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Clean RH.pdb
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Dapper.dll
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Microsoft.OpenApi.dll
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\MySqlConnector.dll
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Clean RH.Application.dll
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Clean RH.Core.dll
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Clean RH.Infrastructure.dll
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Clean RH.Core.pdb
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Clean RH.Infrastructure.pdb
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Clean RH.Application.pdb
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\Clean RH.csproj.AssemblyReference.cache
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\Clean RH.GeneratedMSBuildEditorConfig.editorconfig
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\Clean RH.AssemblyInfoInputs.cache
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\Clean RH.AssemblyInfo.cs
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\Clean RH.csproj.CoreCompileInputs.cache
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\Clean RH.MvcApplicationPartsAssemblyInfo.cs
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\Clean RH.MvcApplicationPartsAssemblyInfo.cache
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\staticwebassets\msbuild.Clean RH.Microsoft.AspNetCore.StaticWebAssets.props
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\staticwebassets\msbuild.build.Clean RH.props
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Clean RH.props
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Clean RH.props
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\staticwebassets.pack.json
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\staticwebassets.build.json
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\staticwebassets.development.json
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\scopedcss\bundle\Clean RH.styles.css
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\Clean RH.csproj.CopyComplete
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\Clean RH.dll
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\refint\Clean RH.dll
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\Clean RH.pdb
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\Clean RH.genruntimeconfig.cache
-D:\Projetos\Repos\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\ref\Clean RH.dll
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\appsettings.Development.json
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\appsettings.json
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Clean RH.exe
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Clean RH.deps.json
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Clean RH.runtimeconfig.json
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Clean RH.dll
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Clean RH.pdb
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Dapper.dll
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Microsoft.AspNetCore.OpenApi.dll
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Microsoft.OpenApi.dll
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\MySqlConnector.dll
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Swashbuckle.AspNetCore.Swagger.dll
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Clean RH.Application.dll
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Clean RH.Core.dll
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Clean RH.Infrastructure.dll
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Clean RH.Core.pdb
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Clean RH.Infrastructure.pdb
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\bin\Debug\net7.0\Clean RH.Application.pdb
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\Clean RH.csproj.AssemblyReference.cache
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\Clean RH.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\Clean RH.AssemblyInfoInputs.cache
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\Clean RH.AssemblyInfo.cs
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\Clean RH.csproj.CoreCompileInputs.cache
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\Clean RH.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\Clean RH.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\staticwebassets\msbuild.Clean RH.Microsoft.AspNetCore.StaticWebAssets.props
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\staticwebassets\msbuild.build.Clean RH.props
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Clean RH.props
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\staticwebassets\msbuild.buildTransitive.Clean RH.props
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\staticwebassets.pack.json
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\staticwebassets.build.json
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\staticwebassets.development.json
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\scopedcss\bundle\Clean RH.styles.css
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\Clean RH.csproj.CopyComplete
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\Clean RH.dll
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\refint\Clean RH.dll
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\Clean RH.pdb
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\Clean RH.genruntimeconfig.cache
+C:\Users\willi\source\repos\Clean RH\CleanRH\cleanRH.api\Clean RH\obj\Debug\net7.0\ref\Clean RH.dll

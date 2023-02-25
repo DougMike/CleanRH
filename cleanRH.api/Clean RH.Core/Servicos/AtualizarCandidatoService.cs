@@ -66,5 +66,21 @@ namespace Clean_RH.Core.Servicos
                 throw;
             }
         }
+
+        public RetornoCandidatoAtualizadoEntity AtualizarBeneficio(AtualizarBeneficioEntity atualizarBeneficioEntity)
+        {
+            try
+            {
+                _AtualizarCandidato.AtualizaBeneficio(atualizarBeneficioEntity);
+
+                var retornoBeneficio = new RetornoCandidatoAtualizadoEntity("teste");
+
+                return retornoBeneficio;
+            }
+            catch (Exception)
+            {
+                throw;
+            }
+        }
     }
 }

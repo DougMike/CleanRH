@@ -7,5 +7,6 @@ namespace Clean_RH.Core.Interfaces.Infra
         void AtualizaCandidato(AtualizarCandidatoEntity atualizarCandidatoEntity);
         void AtualizaDependente(AtualizarDependenteEntity atualizarDependenteEntity);
         void AtualizaCursoFormacao(AtualizarCursoFormacaoEntity atualizarCursoFormacaoEntity);
+        void AtualizaBeneficio(AtualizarBeneficioEntity atualizarBeneficioEntity);
     }
 }

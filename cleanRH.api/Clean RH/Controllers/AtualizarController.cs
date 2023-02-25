@@ -43,9 +43,9 @@ namespace Clean_RH.Controllers
             {
                 var atualizarDependente = AtualizarDependenteMapper.ToAtualizarDependenteEntity(atualizarDependenteViewModel);
 
-                var retornoCandidatoAtualizado = _AtualizarCandidatoService.AtualizarDependente(atualizarDependente);
+                var retornoDependenteAtualizado = _AtualizarCandidatoService.AtualizarDependente(atualizarDependente);
 
-                return Ok(retornoCandidatoAtualizado);
+                return Ok(retornoDependenteAtualizado);
             }
             catch (Exception ex)
             {
@@ -64,6 +64,24 @@ namespace Clean_RH.Controllers
                 var retornoCursoFormacaoAtualizado = _AtualizarCandidatoService.AtualizarCursoFormacao(atualizarCursoFormacao);
 
                 return Ok(retornoCursoFormacaoAtualizado);
+            }
+            catch (Exception ex)
+            {
+                return StatusCode(500, ex.Message);
+            }
+        }
+
+        [HttpPut]
+        [Route("AtualizarDadosBeneficio")]
+        public IActionResult AtualizarBeneficio([FromBody] AtualizarBeneficioViewModel atualizarBeneficioViewModel)
+        {
+            try
+            {
+                var atualizarBeneficio = AtualizarBeneficioMapper.ToAtualizarBeneficioEntity(atualizarBeneficioViewModel);
+
+                var retornoBeneficioAtualizado = _AtualizarCandidatoService.AtualizarBeneficio(atualizarBeneficio);
+
+                return Ok(retornoBeneficioAtualizado);
             }
             catch (Exception ex)
             {
