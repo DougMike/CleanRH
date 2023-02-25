@@ -1,0 +1,13 @@
+.navbar {
+    background-color: white !important;
+    font-size: medium;
+
+    &-brand {
+        color: gray;
+    }
+
+    button {
+        border-radius: 2rem;
+    }
+
+}
