@@ -1,0 +1,41 @@
+{
+
+    "colaborador": [
+        {
+            "nome": "Colaborador 1",
+            "email": "colaborador@email.com",
+            "cadastro": 100,
+            "prazoPreenchimento": 10,
+            "admissao": "2023-01-01T08:30:00",
+            "situacao": "Ativo",
+            "eSocial": "Verificado"
+        }, 
+        {
+            "nome": "Colaborador 2",
+            "email": "colaborador@email.com",
+            "cadastro": 100,
+            "prazoPreenchimento": 10,
+            "admissao": "2023-01-01T08:30:00",
+            "situacao": "Ativo",
+            "eSocial": "Verificando"
+        }, 
+        {
+            "nome": "Colaborador 3",
+            "email": "colaborador@email.com",
+            "cadastro": 100,
+            "prazoPreenchimento": 10,
+            "admissao": "2023-01-01T08:30:00",
+            "situacao": "Inativo",
+            "eSocial": "Nao verificado"
+        }, 
+        {
+            "nome": "Colaborador 4",
+            "email": "colaborador@email.com",
+            "cadastro": 100,
+            "prazoPreenchimento": 10,
+            "admissao": "2023-01-01T08:30:00",
+            "situacao": "Ativo",
+            "eSocial": "Verificado"
+        }
+    ]
+}
